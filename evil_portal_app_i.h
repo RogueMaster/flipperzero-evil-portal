@@ -28,8 +28,8 @@
 #define EVIL_PORTAL_TEXT_BOX_STORE_SIZE (4096)
 
 #define SET_HTML_CMD "sethtml"
-#define SET_AP_CMD "setap"
-#define RESET_CMD "reset"
+#define SET_AP_CMD   "setap"
+#define RESET_CMD    "reset"
 
 struct Evil_PortalApp {
     Gui* gui;

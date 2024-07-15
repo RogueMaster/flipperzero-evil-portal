@@ -5,13 +5,13 @@
 #include <storage/storage.h>
 #include <string.h>
 
-#define PORTAL_FILE_DIRECTORY_PATH APP_ASSETS_PATH("")
-#define HTML_EXTENSION ".html"
-#define HTML_FOLDER PORTAL_FILE_DIRECTORY_PATH "/html"
-#define EVIL_PORTAL_INDEX_SAVE_PATH PORTAL_FILE_DIRECTORY_PATH "/index.html"
+#define PORTAL_FILE_DIRECTORY_PATH     APP_ASSETS_PATH("")
+#define HTML_EXTENSION                 ".html"
+#define HTML_FOLDER                    PORTAL_FILE_DIRECTORY_PATH "/html"
+#define EVIL_PORTAL_INDEX_SAVE_PATH    PORTAL_FILE_DIRECTORY_PATH "/index.html"
 #define EVIL_PORTAL_INDEX_DEFAULT_PATH HTML_FOLDER "/Google_Realistic_V2.html"
-#define EVIL_PORTAL_AP_SAVE_PATH PORTAL_FILE_DIRECTORY_PATH "/ap.config.txt"
-#define EVIL_PORTAL_LOG_SAVE_PATH PORTAL_FILE_DIRECTORY_PATH "/logs"
+#define EVIL_PORTAL_AP_SAVE_PATH       PORTAL_FILE_DIRECTORY_PATH "/ap.config.txt"
+#define EVIL_PORTAL_LOG_SAVE_PATH      PORTAL_FILE_DIRECTORY_PATH "/logs"
 
 void evil_portal_read_index_html(void* context);
 void evil_portal_read_ap_name(void* context);
